@@ -1,0 +1,34 @@
+{% extends "staff/base.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block navigation %}
+    <div class="d-flex justify-content-end mb-4">
+        <a
+            href="{% url 'add_staff' %}"
+            class="btn btn-success me-2">
+            Add Staff
+        </a>
+        <a
+            href="{% url 'staff_list' %}"
+            class="btn btn-primary me-2">
+            View Staff
+        </a>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="text-center mt-5">
+        <p class="lead">
+            Welcome!
+        </p>
+        <h1>
+            Staff Management System
+        </h1>
+        <p class="text-muted">
+            My First Django + PostgreSQL CRUD Application with Html this time.
+        </p>
+    </div>
+{% endblock %}
