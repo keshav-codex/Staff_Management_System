@@ -16,6 +16,11 @@ The application provides basic CRUD operations:
 
 The main purpose of this project is to understand how Django handles data from frontend forms to the database.
 
+  ***** Live Application Link:*****
+  
+    https://staff-management-system-prfu.onrender.com/
+
+
 ## Technologies Used
 
 Backend:
